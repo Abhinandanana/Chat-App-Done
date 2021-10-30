@@ -1,0 +1,37 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to right top, #86a8e7, #61b6f1, #30c4f2, #00d0e9, #01dad8, #00d8dc, #00d7e0, #00d5e3, #00c5ff, #00afff, #1890ff, #a35ffb);
+}
+#loginto{
+    float: none;
+}
+#logo{
+    width: 100px;
+}
+#login{
+    margin-top: 20px;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to right top, #86a8e7, #61b6f1, #30c4f2, #00d0e9, #01dad8, #00d8dc, #00d7e0, #00d5e3, #00c5ff, #00afff, #1890ff, #a35ffb);
+}
+#name{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#ad{
+    color: white;
+}
+#ad1{
+    color: white;
+    margin-bottom: 15px;
+}
+#message{
+    margin:10px auto;
+    width: 80%;
+}
+#SendMessages{
+    bottom:0px;
+    position:fixed;
+    text-align: center;
+    width: 100%;
+}

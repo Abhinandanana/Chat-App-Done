@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1"> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css"> <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+        </script>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js">
+</script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js">
+</script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js">
+</script>
+
+        <title>Chat App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<center>
+    <h1 id="name">Chat App
+        <sup><img src="icons8-message-exchange-50.png"></sup>
+    </h1>
+    <div id="loginto" class="col-lg-4 col-sm-6 col-m-6 col-xs-12">
+        <img id="logo" src="icons8-wechat-50.png">
+        <h2 id="ad"> Chat with your Loved Ones, Distance doesn't Matter! </h2>
+        <h3 id="ad1">Login to the Chat App Today!!</h2>
+            <div class="form-group">
+                <label id="enter">Username:</label>
+                <input id="username" type="text" class="form-control" placeholder="Enter Username">
+                <button id="login" onclick="addUser()"> Login! </button>
+            </div>
+    </div>
+    
+</center>
+<script src="login.js"></script>
+</body>
+</html>
